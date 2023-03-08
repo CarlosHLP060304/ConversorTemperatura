@@ -12,5 +12,6 @@ public class Main {
 		Temperatura temperatura = new Temperatura();
 		System.out.println(temperatura_Celsius_Digitada + " graus Celsius em graus Fahrenheit é: " + temperatura.converterParaFahrenheit(temperatura_Celsius_Digitada) + " graus F");
 		System.out.println(temperatura_Celsius_Digitada + " graus Celsius em graus Kelvin é: " + temperatura.converterParaKelvin(temperatura_Celsius_Digitada) + "K");
+		sc.close();
 	}
 }
